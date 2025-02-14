@@ -8,8 +8,8 @@ function App() {
 
   return (
     <div>
-      <Router basename="website-host">
-          <Routes>
+      <Router>
+          <Routes basename="website-host">
             <Route exact path="/website-host" element={<Home />} />
               <Route exact path="/login" element={<Login />} />
               <Route exact path="/register" element={<Register />} />
